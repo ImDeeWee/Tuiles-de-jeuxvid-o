@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.signup-container {
+  @apply flex items-center justify-center min-h-screen bg-gray-100;
+}
+
+.signup-form {
+  @apply bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-md;
+}
+
+.signup-title {
+  @apply text-xl font-bold mb-4 text-gray-700;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.form-label {
+  @apply block text-gray-700 text-sm font-bold mb-2;
+}
+
+.form-input {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+}
+
+.form-select {
+  @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none;
+}
+
+.error-message {
+  @apply bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4;
+}
+
+.form-actions {
+    @apply flex items-center justify-center pb-4;
+  }
+
+.submit-button {
+  @apply bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none;
+}

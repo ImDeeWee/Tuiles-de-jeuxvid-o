@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tuile-card {
+    @apply border-2 border-gray-300 rounded-lg p-6 m-6 relative hover:shadow-2xl transition-shadow duration-300 ease-in-out bg-white;
+}
+
+.tuile-category {
+    @apply absolute top-2 right-2 bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold;
+}
+
+.tuile-header {
+    @apply flex items-center gap-x-3 my-4;
+}
+
+.tuile-icon {
+    @apply text-red-500 text-3xl;
+}
+
+.tuile-title {
+    @apply text-xl font-bold text-gray-800;
+}
+
+.tuile-auteur {
+    @apply text-lg text-gray-600;
+}
+
+.tuile-actions {
+    @apply flex justify-end items-center gap-x-4 mt-6;
+}
+
+.info-icon {
+    @apply text-3xl text-blue-600 hover:text-blue-800 transition-colors duration-300;
+}
+
+.edit-icon {
+    @apply text-3xl text-yellow-500 hover:text-yellow-700 transition-colors duration-300;
+}
+
+.delete-icon {
+    @apply text-3xl text-red-600 hover:text-red-800 transition-colors duration-300;
+}
+

@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.edit-tuile-container {
+  @apply p-4 flex flex-col items-center;
+}
+
+.edit-tuile-back-button {
+  @apply w-full flex justify-start mb-4;
+}
+
+.edit-tuile-title {
+  @apply text-3xl my-4 text-center;
+}
+
+.edit-tuile-form {
+  @apply flex flex-col border-2 border-sky-400 rounded-xl w-full max-w-lg p-4;
+}
+
+.edit-tuile-form-group {
+  @apply my-4;
+}
+
+.edit-tuile-form-label {
+  @apply text-xl mr-4 text-gray-500;
+}
+
+.edit-tuile-form-input {
+  @apply border-2 border-gray-500 px-4 py-2 w-full;
+}
+
+.edit-tuile-save-button {
+  @apply p-4 bg-sky-300 my-4 w-full text-center;
+}

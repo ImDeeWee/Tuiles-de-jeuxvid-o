@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.showtuiles-container {
+  @apply p-8 flex flex-col items-center bg-gradient-to-r from-blue-100 to-indigo-200 min-h-screen;
+}
+
+.back-button-container {
+  @apply w-full flex justify-start mb-8;
+}
+
+.tuile-title {
+  @apply text-5xl font-extrabold text-gray-900 mb-10 tracking-wide;
+}
+
+.tuile-details {
+  @apply flex flex-col border-2 border-blue-600 rounded-3xl shadow-xl w-full max-w-3xl p-10 bg-white transition-transform transform hover:scale-105;
+}
+
+.tuile-field {
+  @apply flex flex-col items-center my-6;
+}
+
+.field-label {
+  @apply text-2xl font-bold text-indigo-600 mb-4 text-center;
+}
+
+.field-value {
+  @apply text-lg text-gray-800 w-full text-center;
+}
+
+.description-box {
+  @apply border border-gray-400 rounded-lg p-6 bg-gray-50 shadow-inner mt-4 w-full text-center;
+}

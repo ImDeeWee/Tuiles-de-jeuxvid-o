@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-bg {
+  @apply bg-blue-600;
+}
+
+.navbar-container {
+  @apply w-full flex justify-between items-center p-4;
+}
+
+.title-container {
+  @apply flex items-center;
+}
+
+.navbar-title {
+  @apply text-white text-2xl font-bold no-underline flex items-center;
+}
+
+.logo {
+  @apply h-10 w-10 mr-2;
+}
+
+.phrase {
+  @apply ml-4 text-white text-base italic;
+}
+
+.navbar-nav {
+  @apply flex items-center;
+}
+
+.user-info-container {
+  @apply flex items-center;
+}
+
+.user-info-box {
+  @apply flex items-center border border-white px-4 py-2 rounded;
+}
+
+.user-username {
+  @apply pr-4 text-white;
+}
+
+.separator {
+  @apply border-l border-white h-6 mx-2;
+}
+
+.user-email {
+  @apply pl-4 text-white;
+}
+
+.logout-button {
+  @apply bg-white text-blue-600 font-semibold py-2 px-4 rounded transition duration-300 hover:bg-gray-400 ml-4;
+}
+
+.auth-links {
+  @apply flex space-x-4;
+}
+
+.auth-link {
+  @apply bg-white text-blue-600 no-underline py-2 px-4 rounded transition duration-300 hover:bg-gray-100;
+}
