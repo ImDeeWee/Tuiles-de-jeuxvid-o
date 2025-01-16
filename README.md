@@ -20,7 +20,7 @@
 
 1. Clonez le dépôt :
     ```bash
-    git clone https://github.com/hcmbn7/tp2_ift3225.git
+    git clone https://github.com/ImDeeWee/Tuiles-de-jeuxvid-o.git
     ```
 
 2. Accédez au répertoire du projet :
