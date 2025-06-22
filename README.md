@@ -25,7 +25,7 @@
 
 2. Accédez au répertoire du projet :
     ```bash
-    cd tp2_ift3225
+    cd Tuiles-de-jeuxvid-o
     ```
 
 3. Installez les dépendances pour le serveur :
